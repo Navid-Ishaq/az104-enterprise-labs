@@ -422,3 +422,102 @@ A **Read-only lock** blocks any modification, including scaling operations. To p
 The correct command for locking a resource using **Azure CLI** is `az resource lock create`, which allows you to define scope, name, and type.
 
 ---
+
+
+## 7️⃣ Engaging comic-style summary for retention
+
+### 🚀 Meet Alex, the Curious Cloud Explorer
+
+Alex, an energetic Azure admin at **SkyBridgeTech**, had a mission: protect critical resources from accidental deletion or unwanted changes. His goal? Use **resource locks** to keep things safe — like putting a seatbelt on production infrastructure!
+
+---
+
+### 🧱 Spinning Up the Virtual Engine
+
+First things first, our CloudOps pro opened the **Azure portal** and created a brand-new **Virtual Machine** named `vm-skybridge-ubuntu01` under the resource group `rg-cloudcore-alex`. He chose **Ubuntu Server 20.04**, added credentials, picked a **Standard SSD**, and hit **Create**. Boom! His VM was up and running like a charm.
+
+---
+
+### 🔒 Armor Up with Delete Lock
+
+Now that the VM was cruising, the Curious Cloud Explorer added a **Delete Lock** to the VM. This lock acted like a superhero shield, blocking any accidental delete clicks from even the most distracted engineer. Safe and sound!
+
+---
+
+### 🛡️ Fortifying the Whole Castle
+
+But Alex didn’t stop there. To protect everything inside the resource group, he applied a **Read-only Lock** at the **resource group** level. That meant no sneaky config changes or resource deletions—just view access only. It was like putting the whole castle behind a magic "look-but-don’t-touch" barrier.
+
+---
+
+### 💥 Mission Accomplished, Cleanup Time
+
+Once the demo was over, Alex removed the locks and cleaned up the entire environment with one click. No hiccups. Just a clean, safe, and smart Azure experience.
+
+---
+
+### 🎉 Lesson Learned
+
+By using **resource locks**, our Azure admin ensured that production resources stayed protected and untouched — unless someone intentionally removed those locks. It’s a simple yet powerful trick every Azure pro should keep in their toolbox!
+
+## 8️⃣ Text-based diagrams to visualize steps clearly
+
++-------------------------------------------------------------+
+| Azure Resource Lock Lab |
+| Guided by Alex from CloudCore Labs |
++-------------------------------------------------------------+
+
+Start
+↓
+Login to Azure Portal as Alex
+↓
++-----------------------------------------------+
+| Create Resource Group |
+| Name: rg-cloudcore-alex |
++-----------------------------------------------+
+↓
++-----------------------------------------------+
+| Create Virtual Machine |
+| Name: vm-cloudcore-ubuntu01 |
+| OS: Ubuntu Server 20.04 LTS |
+| Size: Standard B2s |
+| Disk: Standard SSD |
+| Username: alex_admin |
++-----------------------------------------------+
+↓
+Deploy VM → Wait for provisioning to complete
+↓
++-----------------------------------------------+
+| Add Delete Lock to the Virtual Machine |
+| Lock Name: VMDeleteLock |
+| Lock Type: Delete |
++-----------------------------------------------+
+↓
++------------------------------------------------+
+| Add Read-only Lock to the Resource Group |
+| Lock Name: RGReadOnly |
+| Lock Type: Read-only |
++------------------------------------------------+
+↓
+(Optional) Test lock behavior:
+→ Try to delete VM (should be blocked ❌)
+→ Try to edit RG resources (should be blocked ❌)
+↓
+Remove Locks → Cleanup Resources
+↓
+End
+
+### 🔍 What This Diagram Shows:
+
+This diagram outlines the full process of using **resource locks** in Azure to protect both a **Virtual Machine** and its **Resource Group** from deletion or modification. Guided by Alex at **CloudCore Labs**, this lab emphasizes how to set up locks, validate their behavior, and manage cleanup effectively. Key Azure tools used include the **Azure Portal**, **Virtual Machine**, and the **Locks** feature under **Azure Resource Manager**.
+
+
+## 9️⃣ Final reflection on the real-world efficiency of the lab
+
+This lab provided Alex, the Azure admin at **CloudCore Labs**, with hands-on experience using **Azure Resource Locks** — a vital tool for maintaining governance and operational integrity in a cloud environment. By applying a **Delete lock** on a **Virtual Machine** and a **Read-only lock** on a **Resource Group**, Alex ensured that critical resources are protected against accidental or unauthorized changes — a common risk in shared or fast-moving cloud environments.
+
+From a business perspective, implementing **resource locks** aligns directly with goals like **cost control**, **security**, and **compliance**. In real-world enterprise environments, such safeguards can prevent costly disruptions caused by mistaken deletions during maintenance or misconfigurations by new team members. This lab not only reinforces best practices in **Azure governance**, but also sharpens the learner’s skillset in **access control**, **infrastructure protection**, and **policy enforcement** — all key responsibilities for anyone in an **Azure Administrator** or **CloudOps** role.
+
+Completing this exercise boosts confidence in managing production environments and empowers learners to design resilient, well-governed Azure architectures.
+
+
