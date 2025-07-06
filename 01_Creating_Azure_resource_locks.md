@@ -462,50 +462,81 @@ By using **resource locks**, our Azure admin ensured that production resources s
 
 ## 8️⃣ Text-based diagrams to visualize steps clearly
 
-+-------------------------------------------------------------+
-| Azure Resource Lock Lab |
-| Guided by Alex from CloudCore Labs |
-+-------------------------------------------------------------+
+## Text-Based Diagram for the Lab: "Creating Azure Resource Locks"
 
-Start
-↓
-Login to Azure Portal as Alex
-↓
-+-----------------------------------------------+
-| Create Resource Group |
-| Name: rg-cloudcore-alex |
-+-----------------------------------------------+
-↓
-+-----------------------------------------------+
-| Create Virtual Machine |
-| Name: vm-cloudcore-ubuntu01 |
-| OS: Ubuntu Server 20.04 LTS |
-| Size: Standard B2s |
-| Disk: Standard SSD |
-| Username: alex_admin |
-+-----------------------------------------------+
-↓
-Deploy VM → Wait for provisioning to complete
-↓
-+-----------------------------------------------+
-| Add Delete Lock to the Virtual Machine |
-| Lock Name: VMDeleteLock |
-| Lock Type: Delete |
-+-----------------------------------------------+
-↓
-+------------------------------------------------+
-| Add Read-only Lock to the Resource Group |
-| Lock Name: RGReadOnly |
-| Lock Type: Read-only |
-+------------------------------------------------+
-↓
-(Optional) Test lock behavior:
-→ Try to delete VM (should be blocked ❌)
-→ Try to edit RG resources (should be blocked ❌)
-↓
-Remove Locks → Cleanup Resources
-↓
-End
+```
+[Start: Azure Portal Login]
+           |
+           v
+[Naveed logs into Azure portal]
+           |
+           v
+[Task 1: Create a Virtual Machine]
+           |
+           v
+[Selects: Create a resource > Virtual Machine]
+           |
+           v
+[Configures VM]
+ - Resource Group: rg-cloudcore-alex
+ - VM Name: vm-cloudcore-linux01
+ - Region: East US
+ - Image: Ubuntu Server 20.04 LTS - Gen2
+ - Size: B2s
+ - Authentication: Username/password (alexadmin / SecureP@ssword123)
+ - OS Disk: Standard SSD (LRS)
+           |
+           v
+[Clicks: Review + create > Create]
+           |
+           v
+[VM is Deployed Successfully]
+           |
+           v
+[Task 2: Add Delete Lock to VM]
+           |
+           v
+[Go to: vm-cloudcore-linux01 > Settings > Locks]
+           |
+           v
+[Click: Add Lock]
+ - Lock Name: lock-vm-delete
+ - Lock Type: Delete
+           |
+           v
+[VM now protected from deletion]
+           |
+           v
+[Task 3: Add Read-Only Lock to Resource Group]
+           |
+           v
+[Go to: rg-cloudcore-alex > Settings > Locks]
+           |
+           v
+[Click: Add Lock]
+ - Lock Name: lock-rg-readonly
+ - Lock Type: Read-only
+           |
+           v
+[Entire resource group is now read-only]
+           |
+           v
+[End Task: Clean Up Resources]
+           |
+           v
+[Remove both locks]
+           |
+           v
+[Delete VM and Resource Group]
+           |
+           v
+[End of Lab]
+```
+
+### Diagram Summary:
+
+This diagram shows how **Naveed**, our **CloudOps engineer**, uses the **Azure portal** to deploy a **virtual machine**, apply a **delete lock** to the VM, and a **read-only lock** to the **resource group**, ensuring protection from accidental changes or deletions. It ends with the **removal of locks** and cleanup, reinforcing best practices in **resource governance**, **security**, and **lifecycle management**.
+
 
 ### 🔍 What This Diagram Shows:
 
