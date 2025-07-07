@@ -144,9 +144,11 @@ Jo log seekh rahe hain, unke liye yeh lab ek aadat banata hai—**sochna seekhei
 
 ---
 
-## 🎁 **Bonus**
+## 🧭 Read in Your Preferred Language
 
 ---
+## 📚 Quick Access Links
+
 
 📘 **Intro English mein parhne ke liye**, click karein → \[]
 
