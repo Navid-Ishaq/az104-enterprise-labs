@@ -151,7 +151,13 @@ For learners, this lab teaches the habit of thinking ahead—**how would this ac
 ✅ Structured fictional examples
 ✅ AZ-104 exam alignment
 
-📂 Explore the full repo here → \[[az104-enterprise-labs`](https://github.com/Navid-Ishaq/az104-enterprise-labs/blob/main/01_Creating_Azure_resource_locks/2-core.md)]
+---
+
+📘 To read the **Intro in English**, click here → []  
+📘 To read the **Core in English**, click here → []  
+📘 To read the **Intro in Roman Urdu**, click here → []  
+📘 To read the **Core in Roman Urdu**, click here → []  
+📂 Explore the full repo here → []
 
 ---
 
