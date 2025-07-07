@@ -151,7 +151,7 @@ For learners, this lab teaches the habit of thinking ahead—**how would this ac
 ✅ Structured fictional examples
 ✅ AZ-104 exam alignment
 
-📂 Explore the full repo here → \[Insert GitHub link to `az104-enterprise-labs`]
+📂 Explore the full repo here → \[[Insert GitHub link to `az104-enterprise-labs`](https://github.com/Navid-Ishaq/az104-enterprise-labs/blob/main/01_Creating_Azure_resource_locks/original.md)]
 
 ---
 
