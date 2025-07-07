@@ -146,11 +146,6 @@ For learners, this lab teaches the habit of thinking ahead—**how would this ac
 
 ## 🎁 Bonus
 
-✅ Full Lab Files (.md) with all 9 sections
-✅ Copy-paste ready MCQs for GitHub
-✅ Structured fictional examples
-✅ AZ-104 exam alignment
-
 ---
 
 📘 To read the **Intro in English**, click here → []  
