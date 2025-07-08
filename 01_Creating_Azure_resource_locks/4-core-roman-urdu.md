@@ -684,3 +684,34 @@ Locks ek silent guardian ki tarah kaam karte hain multi-admin environments mein 
 
 Akhir mein, yeh lab yeh dikhata hai ke kaise Azure ke simple features jaise **resource locks** cloud ke **security**, **stability**, aur **compliance** par meaningful asar daal sakte hain. Professionals jaise ke Alex — aur naye learners jo cloud ki duniya mein enter ho rahe hain — un sab ke liye yeh lessons yeh reinforce karte hain ke thoughtful configuration ka result hota hai ek dependable IT system — jo technical aur business expectations dono ko meet karta hai real-world settings mein.
 
+
+---
+---
+---
+
+
+## 🔄 Azure AD Authentication Method Selection Flowchart (Text-Based)
+
+```diff
++ Start
+  |
+  v
++ Do you want Azure AD to handle sign-in completely in the cloud?
+  |-- Yes --> Do you want to enforce user-level Active Directory security policies during sign-in?
+               |-- Yes --> Do you have a sign-in requirement not natively supported by Azure AD?
+                            |-- Yes --> - Federation with Password Hash Sync
+                            |-- No  --> - Pass-through Auth + Seamless SSO
+               |-- No  --> - Password Hash Sync + Seamless SSO
+  |-- No  --> Do you want to integrate with an existing federation provider?
+               |-- Yes --> - Federation with Password Hash Sync
+               |-- No  --> Do you have a sign-in requirement not natively supported by Azure AD?
+                            |-- Yes --> - Federation with Password Hash Sync
+                            |-- No  --> Do you want sign-in disaster recovery or leaked credential reports?
+                                         |-- Yes --> - Pass-through Auth + Seamless SSO with Password Hash Sync
+                                         |-- No  --> - Pass-through Auth + Seamless SSO
+```
+
+---
+
+### 🧾 Description
+This **color-coded text-based diagram** helps decide the best **Azure AD authentication method** based on organizational needs. It walks through decisions such as enforcing **Active Directory security policies**, enabling **disaster recovery**, or **federating** with existing identity providers. Key outcomes include **Password Hash Sync**, **Pass-through Authentication**, and **Federation with Password Hash Sync** — all standard Azure identity solutions.
