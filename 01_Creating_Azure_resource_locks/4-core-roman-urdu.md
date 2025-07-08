@@ -692,26 +692,59 @@ Akhir mein, yeh lab yeh dikhata hai ke kaise Azure ke simple features jaise **re
 
 ## 🔄 Azure AD Authentication Method Selection Flowchart (Text-Based)
 
-```diff
-+ Start
-  |
-  v
-+ Do you want Azure AD to handle sign-in completely in the cloud?
-  |-- Yes --> Do you want to enforce user-level Active Directory security policies during sign-in?
-               |-- Yes --> Do you have a sign-in requirement not natively supported by Azure AD?
-                            |-- Yes --> - Federation with Password Hash Sync
-                            |-- No  --> - Pass-through Auth + Seamless SSO
-               |-- No  --> - Password Hash Sync + Seamless SSO
-  |-- No  --> Do you want to integrate with an existing federation provider?
-               |-- Yes --> - Federation with Password Hash Sync
-               |-- No  --> Do you have a sign-in requirement not natively supported by Azure AD?
-                            |-- Yes --> - Federation with Password Hash Sync
-                            |-- No  --> Do you want sign-in disaster recovery or leaked credential reports?
-                                         |-- Yes --> - Pass-through Auth + Seamless SSO with Password Hash Sync
-                                         |-- No  --> - Pass-through Auth + Seamless SSO
+Here’s the **exact text-based diagram** based on the flowchart image you provided:
+
+---
+
+## Text-Based Diagram for the Lab: **“Choosing the Right Azure AD Authentication Method”**
+
+```text
+Start
+ |
+ v
+Do you want Azure AD to handle sign-in completely in the cloud?
+ ├── Yes
+ |    |
+ |    v
+ |  Do you want to enforce user-level Active Directory security policies during sign-in?
+ |    ├── Yes
+ |    |     |
+ |    |     v
+ |    |   Do you have a sign-in requirement not natively supported by Azure AD?
+ |    |     ├── Yes → Pass-through Auth + Seamless SSO
+ |    |     └── No  → Password Hash Sync + Seamless SSO
+ |    |
+ |    └── No → Password Hash Sync + Seamless SSO
+ |
+ └── No
+      |
+      v
+   Do you want to integrate with an existing federation provider?
+      ├── Yes → Federation with Password Hash Sync
+      └── No
+           |
+           v
+     Do you have a sign-in requirement not natively supported by Azure AD?
+           ├── Yes → Pass-through Auth + Seamless SSO
+           └── No
+                |
+                v
+      Do you want sign-in disaster recovery or leaked credential reports?
+                ├── Yes → Pass-through Auth + Seamless SSO with Password Hash Sync
+                └── No  → Pass-through authentication  ← [This replaces the red “?”]
 ```
 
 ---
 
-### 🧾 Description
-This **color-coded text-based diagram** helps decide the best **Azure AD authentication method** based on organizational needs. It walks through decisions such as enforcing **Active Directory security policies**, enabling **disaster recovery**, or **federating** with existing identity providers. Key outcomes include **Password Hash Sync**, **Pass-through Authentication**, and **Federation with Password Hash Sync** — all standard Azure identity solutions.
+### 🔎 Summary:
+
+This flowchart helps decide the best **Azure AD authentication method** based on your organization’s needs. It guides you through questions like:
+
+* Do you want **cloud-only** sign-in?
+* Do you need to enforce **on-premises security policies**?
+* Are there **unsupported sign-in requirements**?
+* Do you need **disaster recovery or leaked credential reports**?
+* Are you using **federation providers**?
+
+🔑 Key outcomes include options like **Password Hash Sync**, **Pass-through Authentication**, and **Federation with Password Hash Sync**, depending on what’s most important: simplicity, advanced policies, or integration flexibility.
+
