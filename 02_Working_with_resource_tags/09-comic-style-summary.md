@@ -148,3 +148,4 @@ Whether you’re a beginner just launching your first VM, or an aspiring Azure a
 > **What will you tag next?**
 
 ---
+> _(YAML and JSON are common formats used to define cloud infrastructure — don't worry if they're new, you'll meet them soon!)_
