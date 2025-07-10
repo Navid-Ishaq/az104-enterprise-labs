@@ -1,5 +1,7 @@
-[3] Creating Azure Policies  
+# [3] Creating Azure Policies
+
 This lab guide provides enterprise-ready, scenario-driven walkthroughs for mastering key Azure administrator tasks aligned with the AZ-104 certification.
+
 
 🎉 Lab Complete! You've Just Deployed Governance Like a Pro  
 ✅ 9 clear, focused steps  
