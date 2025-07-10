@@ -44,4 +44,4 @@ Because the cloud doesn’t run itself. But **you** can run it right.
 📘 File: `lab-complete-celebration.md`  
 🧭 Part of: **Lab 3 – Creating Azure Policies**  
 👨‍💻 Created with governance, grit, and a little bit of coffee
-```
+
