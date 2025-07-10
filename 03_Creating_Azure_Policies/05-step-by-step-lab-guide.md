@@ -4,8 +4,6 @@ This lab guide provides enterprise-ready, scenario-driven walkthroughs for maste
 
 **📝 Lab 3: Creating Azure Policies – Step-by-Step Walkthrough**
 
-**Estimated Duration:** \~30 minutes
-
 **Organization:** *BrightOps Solutions*
 
 **Characters:** Ayesha (Cloud Admin), Rohan (Cloud Architect)
