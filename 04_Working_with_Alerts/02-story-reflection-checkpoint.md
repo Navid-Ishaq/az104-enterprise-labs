@@ -2,6 +2,8 @@
 
 This lab guide provides enterprise-ready, scenario-driven walkthroughs for mastering key Azure administrator tasks aligned with the AZ-104 certification.
 
+---
+
 **🔔 Lab Title: “Stay Informed, Stay in Control: Creating Alerts in Azure”**
 
 ---
