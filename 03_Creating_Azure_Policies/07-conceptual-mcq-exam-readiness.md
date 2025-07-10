@@ -2,7 +2,8 @@
 
 This lab guide provides enterprise-ready, scenario-driven walkthroughs for mastering key Azure administrator tasks aligned with the AZ-104 certification.
 
-```markdown
+---
+
 # 🧠 Azure Policy – Conceptual MCQs (AZ-104 Aligned)
 
 Below are 10+ conceptual multiple-choice questions based on **Lab 3: Creating Azure Policies**. Each question is written to reflect **real-world scenarios**, helping learners like **Ayesha, Rohan, and Jordan** at **BrightOps Solutions** develop strong, exam-ready understanding.
