@@ -2,6 +2,9 @@
 
 This lab guide provides enterprise-ready, scenario-driven walkthroughs for mastering key Azure administrator tasks aligned with the AZ-104 certification.
 
+---
+## 🏷️ Celebration Title: **"Tag It Like a Pro – You’ve Just Mastered Meaningful Metadata!"**
+
 # 🎉 Lab Complete! And What a Lab It Was...
 
 ✅ 9 thoughtful steps  
