@@ -3,9 +3,13 @@
 This lab guide provides enterprise-ready, scenario-driven walkthroughs for mastering key Azure administrator tasks aligned with the AZ-104 certification.
 
 **📝 Lab 3: Creating Azure Policies – Step-by-Step Walkthrough**
+
 **Estimated Duration:** \~30 minutes
+
 **Organization:** *BrightOps Solutions*
+
 **Characters:** Ayesha (Cloud Admin), Rohan (Cloud Architect)
+
 **Purpose:** Learn how to apply an Azure Policy to restrict resource creation to a specific region.
 
 ---
