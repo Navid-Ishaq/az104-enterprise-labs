@@ -2,7 +2,90 @@
 
 This lab guide provides enterprise-ready, scenario-driven walkthroughs for mastering key Azure administrator tasks aligned with the AZ-104 certification.
 
-**🔁 Reflection Title: "From Guesswork to Confidence: Rohan’s First Step into Alerting in Azure"**
+**🔔 Lab Title: “Stay Informed, Stay in Control: Creating Alerts in Azure”**
+
+---
+
+### 1️⃣ What This Lab Is All About
+
+This lab, titled **“Working with Alerts”**, teaches learners how to create a **Virtual Machine (VM)** in Microsoft Azure and set up **alerts** that notify users when specific actions—like restarting or modifying the VM—take place. It's a hands-on way to understand how cloud environments can be monitored effectively.
+
+At **BrightOps Solutions**, a fictional cloud consultancy, team members Rohan and Ayesha are always looking for ways to make sure their systems don’t change without them knowing. In this lab, they explore how Azure helps track these changes and keeps the right people informed—before issues turn into problems.
+
+---
+
+### 2️⃣ Why This Lab Matters in the Real World
+
+Imagine you’re in charge of important servers that run your company’s website or client demos. What happens if someone restarts a server by mistake? Or if a system update causes downtime right before a big presentation? Without alerts, you might not even know until someone complains.
+
+Rohan once faced this issue when a demo environment restarted unexpectedly. That’s why learning to set up **alert rules**—notifications that tell you when something changes—is a must. These alerts give IT teams peace of mind and allow them to respond quickly to potential issues. In real life, alerts are like motion sensors in your home security system—they don’t stop problems, but they make sure you know *immediately* when something unusual happens.
+
+---
+
+### 3️⃣ Azure Virtual Machines: Your Digital Workhorse
+
+The first part of the lab involves creating a **Virtual Machine (VM)**—which is like having a computer that lives in the cloud. You can install software, run programs, or simulate real-world servers without needing physical hardware.
+
+In the lab, Rohan sets up a VM called **resizeVM**, choosing the operating system (Windows Server 2022), its location (East US), and its basic configuration. This VM becomes the “target” that he wants to monitor. Think of it as a hotel room he manages—he wants to be notified if someone opens the door, turns off the lights, or changes the settings inside.
+
+---
+
+### 4️⃣ Alerts: Your Cloud’s Watchdog
+
+Once the VM is set up, the next step is creating an **alert rule**. This tells Azure, “Please let me know when someone does something specific to this VM.”
+
+Rohan selects a signal called **All Administrative operations**, which means Azure will keep an eye out for any changes made by users—like restarting, stopping, or resizing the machine. This kind of alert is perfect for teams who want to be aware of important actions without constantly checking manually.
+
+It’s like asking your phone to send you a message whenever someone logs into your smart home camera feed—you want to know who’s doing what and when, so you can stay in control.
+
+---
+
+### 5️⃣ Action Groups: The Messenger System
+
+But alerts don’t work alone—they need a way to *tell you* when something happens. That’s where **action groups** come in. Rohan creates an action group and tells Azure, “When this alert is triggered, send me an email.”
+
+Action groups are like the delivery people for Azure alerts. You tell them where to go (email, text, app notification) and they deliver the message when it’s time. Rohan names his group **alertactiongrp** and links it to his email so he knows the moment anything changes in the VM.
+
+Ayesha compares it to emergency contact lists: “If something happens at school, they don’t just fix it quietly—they call your parents. That’s what action groups do in the cloud world.”
+
+---
+
+### 6️⃣ Azure Activity Logs: The Cloud’s Memory Book
+
+Behind the scenes, Azure keeps a **log of every action** performed—who did what and when. These are called **Activity Logs**, and the alert condition Rohan picked is based on this log. The lab helps learners realize that Azure doesn’t just *run* things—it also *remembers* everything that happened.
+
+It’s like keeping a journal of every visitor to your office building. You might not read it every day, but when something goes wrong, it’s your first place to look for answers.
+
+Using “All Administrative operations” as the condition means Rohan will be notified whenever the log records a significant event—like a restart or settings change.
+
+---
+
+### 7️⃣ Testing the Alert: Practice Before Production
+
+To make sure the alert system works, Rohan performs a **restart** on the VM. Within minutes, he gets an email from Azure saying the machine was restarted. Success!
+
+This part of the lab teaches something very practical: it’s not enough to *set up* alerts—you also need to **test them**. Just like you would test a smoke alarm at home, you need to make sure your alert system actually works before relying on it in a real situation.
+
+Seeing the email arrive builds confidence and helps Rohan and Ayesha trust the system they’ve created.
+
+---
+
+### 8️⃣ How It All Comes Together
+
+By the end of the lab, several Azure tools work together smoothly:
+
+* **Azure Virtual Machines** provide the system being monitored.
+* **Azure Monitoring (Alerts)** watches for specific actions.
+* **Activity Logs** track all those actions in the background.
+* **Action Groups** make sure someone gets the message when something important happens.
+
+These tools are like teammates in a relay race—each passing the baton to the next, making sure the message gets to the finish line (your inbox) in time.
+
+Rohan closes the lab session feeling empowered.
+
+> “I get it now,” he tells Ayesha. “It’s not just about building things in the cloud—it’s about staying informed when they change.”
+
+This lab doesn’t just teach how to click buttons. It teaches **how to stay in control** in a dynamic cloud environment—and that’s something every IT team needs.
 
 ---
 ---
