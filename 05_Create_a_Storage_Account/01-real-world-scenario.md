@@ -3,6 +3,118 @@
 This lab guide provides enterprise-ready, scenario-driven walkthroughs for mastering key Azure administrator tasks aligned with the AZ-104 certification.
 
 ---
+````markdown
+# ⚠️ Warning: This page is written in Roman Urdu. Please use Google Translate to read it in English or your preferred language.
+
+---
+
+### 🔹 Point 1 of 9: Real-World Scenario – “Smart Storage ka Setup at DevStreamCloud!”
+
+---
+
+## 📌 Title: "Storage Banayein Samajhdaari Se – Ayesha aur Omar ka Azure Adventure"
+
+---
+
+### 🌦️ Ek Client Ki Nayi Requirement
+
+DevStreamCloud ek fast-growing cloud services company hai. Ek naye client, MediFlow Health, ne unse data storage solution ka request kiya hai. Wo chahte hain ke unki healthcare reports securely aur cost-effectively store ki jayein — bina kisi slowdowns ke.
+
+Ayesha, jo ek Cloud Specialist hai from Karachi, aur Omar, ek Junior Engineer from Cairo, ko yeh task assign hua. Jordan, unka team lead, ne kaha:
+
+> “Client sirf storage nahi maang raha. Unhein chahiye fast, secure aur flexible system. Let’s use Azure Storage Account and show them what we can do!”
+
+---
+
+### 📚 Pehle Seekhna, Phir Banana
+
+Lab start karne se pehle, Ayesha ne Omar ko samjhaya:
+
+- “Standard aur Premium performance mein farq hai cost aur speed ka.”
+- “Redundancy ka matlab data ko backup karna multiple jagah.”
+- “Aur blob access tiers — Hot, Cool, Archive — data use pattern ke hisaab se select karte hain.”
+
+Omar ne kaha,  
+> “Toh agar humari file har roz use hoti hai, toh 'Hot' sahi rahega?”
+
+> “Bilkul,” Ayesha ne smile karte hue kaha.
+
+---
+
+### 🏗️ Azure Portal Mein Storage Account Banana
+
+Login karke, unhone **Storage Accounts** section open kiya aur **+Create** pe click kiya.
+
+- Resource Group: `rg-devstream-ayesha`
+- Storage Account Name: `mystorageaccayesha`
+- Region: East US
+- Performance: **Standard**
+- Redundancy: **LRS (Locally-redundant storage)**
+
+Phir **Review + Create** pe click kiya — aur storage account ready ho gaya.
+
+---
+
+### 📂 Blob Container aur File Share ka Farq Samajhna
+
+Omar curious tha:  
+> “Blob aur File Share mein difference kya hai?”
+
+Ayesha ne simple example diya:  
+> “Blob unstructured data ke liye hota hai jaise images, documents. File Share structured file system ki tarah kaam karta hai — jaise Windows Explorer.”
+
+Unhone `mycontainer25` container banaya aur ek `sample.html` upload ki:  
+```html
+<h1>This is a sample document!</h1>
+````
+
+Phir `myfile123` file share banaya with **Hot tier**, aur ek test file upload ki.
+
+---
+
+### 💡 Real Business Insight
+
+Ayesha ne note kiya:
+
+> “Sahi storage option choose karna sirf technical task nahi hai — yeh business decision bhi hota hai.”
+
+Unhone dekha kaise **performance**, **redundancy**, aur **access tier** impact karte hain cost aur availability ko. Agar data rarely use hota hai, toh "Cool" ya "Archive" tier use karke cost save ki ja sakti hai.
+
+---
+
+### 🧹 Cleanup and Documentation
+
+Test complete hone ke baad, Ayesha ne Omar ko yaad dilaya:
+
+> “Ab sab delete kar do — warna billing aa jayegi!”
+
+Unhone OneNote pe documentation ki:
+
+* Kya steps follow kiye
+* Kis setting ka kya impact hota hai
+* Kaise client-specific needs fulfill hoti hain
+
+---
+
+### 🚀 Ready for Real-World Use
+
+Yeh lab sirf storage banane ka exercise nahi tha. Yeh ek lesson tha in **cloud thinking** — planning, choosing wisely, aur business value deliver karna.
+
+Omar ne end pe kaha:
+
+> “Ab jab client kahega 'secure and cost-efficient storage', toh hum confidently keh sakte hain — we’ve got it covered!”
+
+---
+
+**🔑 Moral:**
+Har file upload se pehle, har setting samajhni chahiye. Kyun?
+Kyuki Azure mein **storage = strategy**.
+
+
+---
+---
+---
+
 ### 🔹 **Point 1 of 9: Real-World Scenario – Making Storage Count at Scale**
 
 ---
