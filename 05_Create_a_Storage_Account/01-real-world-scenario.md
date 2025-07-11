@@ -3,7 +3,7 @@
 This lab guide provides enterprise-ready, scenario-driven walkthroughs for mastering key Azure administrator tasks aligned with the AZ-104 certification.
 
 ---
-````markdown
+
 # ⚠️ Warning: This page is written in Roman Urdu. Please use Google Translate to read it in English or your preferred language.
 
 ---
