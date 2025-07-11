@@ -1498,12 +1498,16 @@ This wasn’t just a lab. It was a **hands-on story about structure, planning, a
 
 ---
 
+### 🥳 Celebration Title: **“Storage Superpower Unlocked – You Just Mastered the Cloud’s File Room!”**
+
+---
+
 ## 🎉 Lab Complete! And What a Journey It Was...
 
-✅ 9 smart, story-rich learning points
-📦 1 complete Azure Storage setup from scratch
-📁 Blob containers, file shares, and tiered storage — all at your command
-💡 Real-world context from naming rules to redundancy decisions
+✅ 9 smart, story-rich learning points  
+📦 1 complete Azure Storage setup from scratch  
+📁 Blob containers, file shares, and tiered storage — all at your command  
+💡 Real-world context from naming rules to redundancy decisions  
 
 You didn’t just create a storage account — you designed a **cloud-powered system** that organizes, stores, and shares files the way real businesses do. This lab was about **building structure** in a world of unstructured data.
 
@@ -1511,10 +1515,10 @@ You didn’t just create a storage account — you designed a **cloud-powered sy
 
 ## 💭 What Comes Next?
 
-📁 Try lifecycle management to automate moving blobs from Hot to Cool or Archive
-🔐 Explore role-based access to protect storage at scale
-📊 Use Azure Monitor to track storage usage and performance
-🗂️ Test static website hosting from your blob container
+📁 Try lifecycle management to automate moving blobs from Hot to Cool or Archive  
+🔐 Explore role-based access to protect storage at scale  
+📊 Use Azure Monitor to track storage usage and performance  
+🗂️ Test static website hosting from your blob container  
 🔄 Integrate storage with Azure Logic Apps for workflows
 
 ---
@@ -1525,8 +1529,8 @@ This lab wasn’t about dragging and dropping files. It was about thinking like 
 
 You now understand:
 
-* Where files live
-* How to store them smartly
+* Where files live  
+* How to store them smartly  
 * And how to **balance cost, access, and redundancy**
 
 > “Blob, file share, or archive — it’s all in your toolbox now.”
@@ -1535,10 +1539,10 @@ You now understand:
 
 ## 🚀 You Did It!
 
-📦 You built structured storage
-📊 You made strategic decisions
-🧠 You acted like an Azure admin
-🧹 And yes — you cleaned up responsibly
+📦 You built structured storage  
+📊 You made strategic decisions  
+🧠 You acted like an Azure admin  
+🧹 And yes — you cleaned up responsibly  
 
 So whether you’re prepping for **AZ-104** or deploying solutions in a real cloud project, remember this:
 
@@ -1548,38 +1552,39 @@ So whether you’re prepping for **AZ-104** or deploying solutions in a real clo
 
 ## 📘 File: `lab-complete-storage-celebration.md`
 
-🧭 Part of: Lab 1 – Creating an Azure Storage Account
+🧭 Part of: Lab 1 – Creating an Azure Storage Account  
 👨‍💻 Powered by logic, learning, and maybe a few joyful lightbulb moments
 
-✅ **Smart Guide: Lab 1 Celebration – “Storage Superpower Unlocked!”**
-🎯 What You Just Did:
+✅ **Smart Guide: Lab 1 Celebration – “Storage Superpower Unlocked!”**  
+🎯 What You Just Did:  
 You created and configured an Azure Storage Account — and learned to treat the cloud like a structured digital library.
 
 🛠️ What You Built:
 
-* A storage account with Standard + LRS
-* A blob container with a live file upload
-* A file share with accessible documents
+* A storage account with Standard + LRS  
+* A blob container with a live file upload  
+* A file share with accessible documents  
 * Smart naming, clean deletion, and operational awareness
 
-📈 Why It Matters:
+📈 Why It Matters:  
 You now understand how data is organized in Azure — and why structure, access, and cleanup all matter in production.
 
 🚀 What’s Next:
 
-* Use automation to manage blob tiers
-* Explore Static Website hosting in blob containers
-* Monitor storage with Azure insights
+* Use automation to manage blob tiers  
+* Explore Static Website hosting in blob containers  
+* Monitor storage with Azure insights  
 * Set access rules for better data governance
 
-🌟 Final Reminder:
-Storage isn’t just about keeping files safe.
+🌟 Final Reminder:  
+Storage isn’t just about keeping files safe.  
 It’s about keeping them **smart, structured, and ready for action**.
 
-You didn’t just upload a file.
+You didn’t just upload a file.  
 **You leveled up as a cloud-ready admin.**
 
 🧡 Keep building. Keep learning. Keep storing smart.
+
 
 
 ### 🎊 Final Congratulations! 🎊
