@@ -40,7 +40,9 @@ With their alert working and their coffee cups empty, the team deleted all their
 **💡 Moral of the Comic:**
 **Let your cloud tell you when something’s wrong. Alerts = Awareness = Awesome!** 🚀
 
-```
+
+---
+---
 
 ## ✅ Smart Guide: “The Cloud That Cried ‘Restart!’”
 
