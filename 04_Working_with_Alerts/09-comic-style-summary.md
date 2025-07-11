@@ -41,10 +41,6 @@ With their alert working and their coffee cups empty, the team deleted all their
 **Let your cloud tell you when something’s wrong. Alerts = Awareness = Awesome!** 🚀
 
 ```
-```
-Sure! Here’s a **brief smart guide** version of the comic-style summary — perfect for quick review or retention:
-
----
 
 ## ✅ Smart Guide: “The Cloud That Cried ‘Restart!’”
 
