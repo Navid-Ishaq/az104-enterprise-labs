@@ -1486,7 +1486,7 @@ This wasn’t just a lab. It was a **hands-on story about structure, planning, a
 
 ---
 
-*End of Lab 1 – Storage mastery unlocked!*
+*End of Lab 5 – Storage mastery unlocked!*
 
 ---
 ### 🌸🎉 Congratulations! 🎉🌸
@@ -1552,10 +1552,10 @@ So whether you’re prepping for **AZ-104** or deploying solutions in a real clo
 
 ## 📘 File: `lab-complete-storage-celebration.md`
 
-🧭 Part of: Lab 1 – Creating an Azure Storage Account  
+🧭 Part of: Lab 5 – Creating an Azure Storage Account  
 👨‍💻 Powered by logic, learning, and maybe a few joyful lightbulb moments
 
-✅ **Smart Guide: Lab 1 Celebration – “Storage Superpower Unlocked!”**  
+✅ **Smart Guide: Lab 5 Celebration – “Storage Superpower Unlocked!”**  
 🎯 What You Just Did:  
 You created and configured an Azure Storage Account — and learned to treat the cloud like a structured digital library.
 
@@ -1587,11 +1587,13 @@ You didn’t just upload a file.
 
 
 
-### 🎊 Final Congratulations! 🎊
 
-**"You didn’t just follow steps — you made decisions like a real cloud professional."**
-**"Every storage container you built, every file you uploaded — it all added up to real skills."**
-**"The cloud isn't just a place. It's a mindset. And now, you're thinking like an Azure hero."**
-🌟 **Well done. Keep going. Your cloud journey has only just begun.** 🌟
+### 🎊 Final Congratulations! 🎊  
+🌸 "You didn’t just follow steps — you made decisions like a real cloud professional."  
+🌼 "Every storage container you built, every file you uploaded — it all added up to real skills."  
+💐 "The cloud isn't just a place. It's a mindset. And now, you're thinking like an Azure hero."  
+🌟 **Well done. Keep going. Your cloud journey has only just begun.** 🌟  
+
+
 
 
