@@ -2,6 +2,8 @@
 
 This lab guide provides enterprise-ready, scenario-driven walkthroughs for mastering key Azure administrator tasks aligned with the AZ-104 certification.
 
+---
+
 ### 🔹 **Point 6 of 9: Reflecting on Real-World Value — Why This Alert Lab Truly Matters**
 
 In the world of cloud computing, it’s easy to get caught up in technical tasks and miss the bigger picture. This lab—setting up a virtual machine and creating an alert for admin operations—might seem simple on the surface. But in reality, it teaches something essential: how to **listen to your systems and respond quickly when something changes**.
