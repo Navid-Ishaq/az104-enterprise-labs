@@ -83,9 +83,7 @@ That kind of security doesn’t just protect — it reassures.
 ---
 
 > _Security isn’t just code — it’s care, intention, and quiet vigilance._  
-
 > — Jamalu  
-
 > — **Siraat AI Academy**
 
 ---
