@@ -184,6 +184,7 @@ Once done, **delete all the resources** to avoid ongoing costs and keep your env
 > You proved to yourself that security isn’t about fear — it’s about quiet, intelligent design.”*
 
 > — Jamalu
+
 > — **Siraat AI Academy**
 
 ---
