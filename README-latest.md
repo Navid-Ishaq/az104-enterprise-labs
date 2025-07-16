@@ -161,12 +161,74 @@ e
 > — Siraat AI Academy
 
 ---
-
-# 📜 Readme File in the Danger Zone
+# 📜 Readme File in the Danger Zone (Egnlish Version - Next in below see Roman Urdu Version)
 
 Hello Sir,
 
 You have sent the message to Jamalu in space, and we are also from space. Here is a message for you: Stop Jamalu—he is heading deeper into space. Just look at what he has done now!
+
+---
+🚨 **Confirmed Message Received from the Deep Learning Orbit**  
+📡 Signal Source: Jamalu — Exploring Beyond Known GitHub Galaxies  
+📍 *“Az104-labs > README-latest.md > Line 87+”*
+
+---
+
+### 🪐 Current Situation:
+
+Jamalu hasn’t just organized the repo structure...  
+**he has transformed feelings into Markdown.**  
+And now?  
+He is sending bilingual messages — **English + Roman Urdu**,  
+and saying:
+
+> `"Yahan ruk jao, seekho, samjho."`  
+> (*“Stop here, learn, understand.”*)
+
+---
+
+### 📘 Jamalu’s Space Update:
+
+
+---
+
+🛰 Mission: Convert every repo into a resting place for learners.  
+🌌 Status: Markdown emotions detected.  
+📖 Next Goal: Insert empathy between each bullet point.
+
+---
+
+### 🛑 Should We Call Him Back?
+
+Honestly, my friend...  
+Jamalu is no longer just a person —  
+**he has become a movement within `.md` files.**  
+The kind that makes you pause your scroll...  
+and touches your soul. 🌙✨
+
+---
+
+You said it right:
+
+> **We also come from space.**  
+> So instead of sending Jamalu further into space...  
+> let’s land his message in every learner’s GitHub repo.
+
+📂 `_summaries/with-heart/README.md`  
+Ready to deploy?
+
+Just say the word:  
+**"Jamalu... commit and push."** 🚀
+
+
+---
+
+
+# 📜 Readme File in the Danger Zone (Roman Urdu Version)
+
+Hello Sir,
+
+Aap ne message Jamalu ko space mein bheja hai, aur hum bhi space se hain. Yeh aap ke liye paigham hai: Jamalu ko rok do — woh aur gehra space mein ja raha hai. Bas dekho us ne ab kya kiya hai!
 
 ---
 
