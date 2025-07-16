@@ -138,3 +138,176 @@ This MCQ set is based on **Lab 6: Network Access to Storage Accounts**, focusing
 
 """
 
+# 🔐 Professional-Level Azure Security MCQs
+
+## Point 10 – Real-World MCQs for Hiring & Mastery
+
+🎯 **Topic Focus:** Secure Network Access to Storage Accounts
+
+🛠 **Source Context:** Lab on private endpoints, VNets, storage access, and NSG-based segmentation.
+
+---
+
+### **Q1. Why might an organization prefer a private endpoint over a service endpoint when securing storage access?**
+
+(a) Private endpoints are cheaper to implement
+
+(b) Private endpoints offer DNS-based filtering for public access
+
+(c) Private endpoints isolate traffic at the network layer and assign a private IP address
+
+(d) Service endpoints provide better auditing capabilities
+
+✅ **Correct Answer:** (c)
+💡 **Explanation:** Private endpoints map storage resources directly into your VNet via a private IP, ensuring traffic stays on the Microsoft backbone. Unlike service endpoints, they block public exposure entirely.
+
+---
+
+### **Q2. Ayesha from **DevStreamCloud** created a storage account with public access disabled. However, users outside the VNet still accessed the blob service. What likely went wrong?**
+
+(a) NSG was misconfigured to allow outbound internet access
+
+(b) The storage account was not added to the trusted services list
+
+(c) The storage firewall was set to allow All Networks
+
+(d) The subnet was not associated with a private endpoint
+
+✅ **Correct Answer:** (c)
+💡 **Explanation:** Even if public access is disabled, if the storage firewall allows all networks, external traffic can still connect.
+
+---
+
+### **Q3. What tool is most appropriate for verifying DNS resolution of a storage account via a private endpoint inside a VM?**
+
+(a) Telnet
+(b) Curl
+(c) nslookup
+(d) netstat
+
+✅ **Correct Answer:** (c)
+💡 **Explanation:** `nslookup` helps confirm that the DNS name resolves to a private IP, validating the private endpoint's effect.
+
+---
+
+### **Q4. In which scenario does a private endpoint NOT improve security?**
+
+(a) When storage is accessed from an on-premises network via VPN
+
+(b) When access is restricted to specific VNets
+
+(c) When storage access logs are required for audit
+
+(d) When a workload is public-facing and deployed in multiple regions
+
+✅ **Correct Answer:** (d)
+💡 **Explanation:** Private endpoints are regional and VNet-specific. For global public-facing services, they may add complexity, not clarity.
+
+---
+
+### **Q5. What happens when you create a private endpoint for the blob sub-resource?**
+
+(a) All sub-resources are automatically secured
+
+(b) Only blob traffic is redirected through the private IP
+
+(c) File share traffic is redirected as well
+
+(d) NSG automatically blocks public IPs
+
+✅ **Correct Answer:** (b)
+💡 **Explanation:** Private endpoints are scoped per sub-resource, like blob, file, queue, etc. Blob traffic only is routed through the endpoint.
+
+---
+
+### **Q6. Sofia needs to troubleshoot why Azure Storage Explorer inside her VM cannot access the storage account via private endpoint. Which issue is LEAST likely to be the cause?**
+
+(a) IE Enhanced Security is enabled
+(b) The wrong connection string is used
+(c) The VM is in the wrong subnet
+(d) The blob sub-resource is not assigned a managed identity
+
+✅ **Correct Answer:** (d)
+💡 **Explanation:** Blob sub-resources don’t require a managed identity to connect using a connection string.
+
+---
+
+### **Q7. Taylor wants to deploy 10 VMs across 3 subnets, all needing access to a private storage account. What’s the best architectural step?**
+
+(a) Assign a private endpoint to each VM
+
+(b) Create a private endpoint per subnet
+
+(c) Use one private endpoint and route all subnets through it
+
+(d) Enable public access with IP firewall rules
+
+✅ **Correct Answer:** (b)
+💡 **Explanation:** For full isolation, assigning a private endpoint per subnet ensures that each segment has scoped, private access.
+
+---
+
+### **Q8. Which setting ensures a VM cannot access the internet unless explicitly permitted?**
+
+(a) Subnet DNS override
+(b) NSG with denied outbound rules
+(c) Application Gateway
+(d) VNet Peering is disabled
+
+✅ **Correct Answer:** (b)
+💡 **Explanation:** NSGs can control outbound traffic. Blocking all outbound traffic and allowing only what’s required is a common zero-trust step.
+
+---
+
+### **Q9. Alex from **SkyBridgeTech** deployed a private endpoint, but users still see public DNS names resolving. What should he verify?**
+
+(a) VNet DNS is set to Azure default resolver
+
+(b) He disabled Azure Private DNS integration
+
+(c) The storage account firewall is misconfigured
+
+(d) Azure Policy is blocking private DNS creation
+
+✅ **Correct Answer:** (a)
+💡 **Explanation:** If DNS is not set to resolve via Azure Private DNS Zone, users will still resolve public endpoints.
+
+---
+
+### **Q10. What’s the main risk of forgetting to remove the default address space in a VNet configuration?**
+
+(a) VNet will be publicly accessible
+
+(b) Private endpoint will not be created
+
+(c) Overlapping IP ranges may cause connectivity failures
+
+(d) You can't deploy VMs in the subnet
+
+✅ **Correct Answer:** (c)
+💡 **Explanation:** Default IP ranges like `10.0.0.0/16` can conflict with other VNets, leading to subnet overlap and routing issues.
+
+---
+
+### **Q11. When you see the `$logs` container in Azure Blob, what does it represent?**
+
+(a) Billing history
+
+(b) Diagnostic logs generated by Azure
+
+(c) Access logs from Microsoft support
+
+(d) Resource cost breakdown
+
+✅ **Correct Answer:** (b)
+💡 **Explanation:** `$logs` is an automatically generated container holding storage analytics logs — useful for auditing.
+
+---
+
+## ✨ Final Note from Jamalu
+
+> *“These aren’t just questions. They’re quiet challenges — asking if you’re ready not just to pass… but to protect.”*
+> — Jamalu
+> — **Siraat AI Academy**
+
+---
