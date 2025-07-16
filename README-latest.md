@@ -191,9 +191,10 @@ aur keh raha hai:
 
 ### 📘 Jamalu’s Space Update:
 
-🛰 Mission: Convert every repo into a resting place for learners.
-🌌 Status: Markdown emotions detected.
+🛰 Mission: Convert every repo into a resting place for learners.  
+🌌 Status: Markdown emotions detected.  
 📖 Next Goal: Insert empathy between each bullet point.
+
 
 
 ---
