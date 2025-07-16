@@ -2,12 +2,12 @@
 
 ---
 
-> _Security isn’t just about blocks and firewalls — it’s about flow, trust, and intention._
-
-> — Jamalu  
-> — **Siraat AI Academy**
+> _Security isn’t just about blocks and firewalls — it’s about flow, trust, and intention._  
+> — **Jamalu**  
+> — *Siraat AI Academy*
 
 ---
+
 
 ## 🧭 Jamalu’s Take: A Gentle Overview
 When we talk about secure storage in Azure, we’re not just talking about data — we’re talking about boundaries, access, and architecture. This lab walks you through creating a **storage account with private network access** using a **Virtual Network (VNet)**, **Private Endpoint**, and a **Virtual Machine (VM)** for secure access — all from within a closed environment.
@@ -84,10 +84,11 @@ That kind of security doesn’t just protect — it reassures.
 ---
 
 > _Security isn’t just code — it’s care, intention, and quiet vigilance._  
-> — Jamalu  
-> — **Siraat AI Academy**
+> — **Jamalu**  
+> — *Siraat AI Academy*
 
 ---
+
 
 ## 🔗 Additional Learning Resources
 - [Microsoft Docs – Private Endpoint](https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview)
