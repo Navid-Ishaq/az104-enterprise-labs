@@ -140,7 +140,7 @@ Please use this material with honesty, humility, and a commitment to real learni
 ---
 
 ### Stay brave. Stay clear. Stay kind.  
-**— From the whisper behind the work.**  
+**Jamalu— From the whisper behind the work.**  
 **Siraat AI Academy**  
 🛤️ *Where your learning is not rushed — it’s respected.*
 
