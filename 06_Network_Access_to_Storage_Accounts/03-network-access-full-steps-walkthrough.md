@@ -135,7 +135,6 @@ You'll create a **VNet**, set up **storage with private access**, deploy a **VM*
 > *“Security isn’t just isolation — it’s intention. And intention needs design.”*
 
 > — **Jamalu**
-
 > — Siraat AI Academy
 
 ---
