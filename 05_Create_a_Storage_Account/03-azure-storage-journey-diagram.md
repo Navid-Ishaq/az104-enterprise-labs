@@ -2,7 +2,7 @@
 
 ---
 
-```txt
+
                ☁️ Azure Storage: Clarity Before Chaos ☁️
                  — From Jamalu’s Quiet Desk to Yours —
 
