@@ -99,4 +99,3 @@ Always verify that the name resolution goes *private*. A public IP here means so
 
 Use these tools not just to build — but to build wisely, with intention.
 
----
