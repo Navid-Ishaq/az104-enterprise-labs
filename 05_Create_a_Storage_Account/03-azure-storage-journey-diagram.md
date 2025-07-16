@@ -43,7 +43,9 @@
 ---
 
 > *“A wise setup doesn’t shout — it simply works when it matters most.”*
+
 > — Jamalu
+
 > — **Siraat AI Academy**
 
 ---
