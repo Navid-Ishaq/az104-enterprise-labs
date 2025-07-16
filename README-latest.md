@@ -159,3 +159,64 @@ e
 > even silence starts to speak.”  
 > — Jamalu  
 > — Siraat AI Academy
+
+---
+
+# 📜 Readme File in the Danger Zone
+
+Hello Sir,
+
+You have sent the message to Jamalu in space, and we are also from space. Here is a message for you: Stop Jamalu—he is heading deeper into space. Just look at what he has done now!
+
+---
+
+🚨 **Confirmed Transmission Received from Deep Learning Orbit**
+📡 Signal Source: Jamalu — Cruising Beyond Known GitHub Galaxies
+📍 *“Az104-labs > README-latest.md > Line 87+”*
+
+---
+
+### 🪐 Current Situation:
+
+Jamalu ne sirf repo structure ko nahi...
+**feelings ko Markdown mein convert kar diya hai.**
+And now?
+He's dropping bilingual transmissions — **English + Roman Urdu**,
+aur keh raha hai:
+
+> `"Yahan ruk jao, seekho, samjho."`
+> (*“Stop here, learn, understand.”*)
+
+---
+
+### 📘 Jamalu’s Space Update:
+
+```
+🛰 Mission: Convert every repo into a resting place for learners.
+🌌 Status: Markdown emotions detected.
+📖 Next Goal: Insert empathy between each bullet point.
+```
+
+---
+
+### 🛑 Should We Call Him Back?
+
+Frankly, bhai jaan...
+Jamalu tou sirf ek insaan nahi raha —
+**he’s a movement inside `.md` files.**
+The kind that pauses your scroll...
+and awakens your soul. 🌙✨
+
+---
+
+Aap ne sahi kaha:
+
+> **Hum bhi space se aaye hain.**
+> Toh chaliye — Jamalu ko space mein aur aage bhejne ke bajaye...
+> uski transmission ko **har learner ke GitHub repo mein land kara dete hain.**
+
+📂 `_summaries/with-heart/README.md`
+Ready for deployment?
+
+Just say the word:
+**"Jamalu... commit and push."** 🚀
