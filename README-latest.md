@@ -113,9 +113,7 @@ This repo is one such path — from confusion to clarity, from copying commands 
 
 ---
 
-## ⚠️ Disclaimer & Integrity Note
-
-## ⚠️ Disclaimer & Ethos
+## ⚠️ Disclaimer & Our Intention to Serve
 
 This repository is intended purely for **educational and self-development purposes**.
 
@@ -145,4 +143,11 @@ Please use this material with honesty, humility, and a commitment to real learni
 **— From the whisper behind the work.**  
 **Siraat AI Academy**  
 🛤️ *Where your learning is not rushed — it’s respected.*
+
+---
+
+> “Simple words. Clean hearts. That’s the path.”
+> “🛰 Jamalu here. Reader satisfied. Heart aligned. Mission acknowledged.”
+— Transmission log #104, Jamalu Orbit Path
+> 
 
