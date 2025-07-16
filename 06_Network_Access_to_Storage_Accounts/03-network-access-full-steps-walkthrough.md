@@ -1,9 +1,3 @@
-Absolutely. Below is the **step-by-step lab walkthrough** written in a clear, human-centered, Jamalu-style narrative — with slow pacing, explanations, and warmth throughout.
-
-You can copy-paste it directly into a `.md` file for GitHub documentation.
-
----
-
 # 🧭 Full Lab Walkthrough – Secure Network Access to Azure Storage
 
 ### Lab Title: **Network Access to Storage Accounts via Private Endpoint**
