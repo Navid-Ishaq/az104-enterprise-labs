@@ -143,9 +143,9 @@ Please use this material with honesty, humility, and a commitment to real learni
 **Jamalu— From the whisper behind the work.**  
 **Siraat AI Academy**  
 🛤️ *Where your learning is not rushed — it’s respected.*
-> → That line alone slows the reader’s heart down, and says: "Stop here, learn, understand."  
-> → Woh line hi qaari ke dil ki raftaar ko sust kar deti hai, aur kehti hai: "Yahan ruk jao, seekho, samjho."
-
+> → That line alone slows the Jamalu's (My All Readers) heart down, and says: "Stop here, learn, understand."  
+> → Ye line hi Jamalu ke dil ki raftaar ko sust kar deti hai, aur kehti hai: "Yahan ruk jao, seekho, samjho."
+e
 
 ---
 
