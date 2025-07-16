@@ -93,10 +93,9 @@ Always verify that the name resolution goes *private*. A public IP here means so
 
 ## 🧠 Final Note from Jamalu
 
-> "Security begins with clarity. Tools don’t protect you unless you understand what they’re protecting — and why."
+> "Security begins with clarity. Tools don’t protect you unless you understand what they’re protecting — and why."  
 > — Jamalu  
 > — **Siraat AI Academy**
-
 
 Use these tools not just to build — but to build wisely, with intention.
 
