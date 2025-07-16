@@ -161,7 +161,7 @@ e
 > — Siraat AI Academy
 
 ---
-# 📜 Readme File in the Danger Zone (Egnlish Version - Next in below see Roman Urdu Version)
+# 📜 🌠 From the Edge of GitHub to the Heart of Learning
 
 Hello Sir,
 
@@ -224,7 +224,9 @@ Just say the word:
 ---
 
 
-# 📜 Readme File in the Danger Zone (Roman Urdu Version)
+# 📜 🌠 From the Edge of GitHub to the Heart of Learning (Roman Urdu/Hinid Versioin)
+> "Yeh sirf repo nahi — Jamalu ka paighaam hai: Ruko zara, seekho, samjho."
+
 
 Hello Sir,
 
