@@ -1,8 +1,5 @@
 
 
----
-
-
                ☁️ Azure Storage: Clarity Before Chaos ☁️
                  — From Jamalu’s Quiet Desk to Yours —
 
@@ -41,7 +38,7 @@
                   🧠 Jamalu’s Reminder: “Clarity is a form of care.”
 
 
-```
+
 
 ---
 
