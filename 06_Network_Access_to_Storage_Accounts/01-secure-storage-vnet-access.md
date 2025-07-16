@@ -1,7 +1,9 @@
 # 🔐 Network Access to Storage Accounts – The Jamalu Way
 
 > _Security isn’t just about blocks and firewalls — it’s about flow, trust, and intention._
+
 > — Jamalu  
+
 > — **Siraat AI Academy**
 
 ---
@@ -81,7 +83,9 @@ That kind of security doesn’t just protect — it reassures.
 ---
 
 > _Security isn’t just code — it’s care, intention, and quiet vigilance._  
+
 > — Jamalu  
+
 > — **Siraat AI Academy**
 
 ---
