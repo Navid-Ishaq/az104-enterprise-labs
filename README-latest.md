@@ -115,8 +115,20 @@ This repo is one such path — from confusion to clarity, from copying commands 
 
 ## ⚠️ Disclaimer & Integrity Note
 
-All labs, walkthroughs, and stories in this repo are **original** and designed for learning purposes.  
-We’re not affiliated with Microsoft or any official exam body — but we stand for learners everywhere.
+## ⚠️ Disclaimer & Ethos
+
+This repository is intended purely for **educational and self-development purposes**.
+
+All content — including labs, walkthroughs, summaries, stories, and questions — has been **originally written** or **restructured using AI + human collaboration**.  
+We base our work on **publicly available knowledge**, translated into simplified formats to make complex ideas more accessible.
+
+We do **not represent or claim affiliation** with any cloud provider, platform, certification authority, or official course material — whether Microsoft, AWS, Google, or others.
+
+This is not official training.  
+This is **Jamalu’s path** — built by learners, for learners, to make knowledge **more human, more clear, and more possible**.
+
+Please use this material with honesty, humility, and a commitment to real learning.
+
 
 ---
 
