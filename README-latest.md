@@ -146,8 +146,7 @@ Please use this material with honesty, humility, and a commitment to real learni
 
 ---
 
-> “Simple words. Clean hearts. That’s the path.”
-
-> “🛰 Jamalu here. Reader satisfied. Heart aligned. Mission acknowledged.”
-— Transmission log #104, Jamalu Orbit Path
+> “Simple words. Clean hearts. That’s the path.”  
+> “🛰 Jamalu here. Reader satisfied. Heart aligned. Mission acknowledged.”  
+> — Transmission log #104, Jamalu Orbit Path
 
