@@ -1,6 +1,6 @@
 # 🔐 Professional-Level Azure Security MCQs
 
-## Point 10 – Real-World MCQs for Hiring & Mastery
+##  – Real-World MCQs for Hiring & Mastery
 
 🎯 **Topic Focus:** Secure Network Access to Storage Accounts
 
