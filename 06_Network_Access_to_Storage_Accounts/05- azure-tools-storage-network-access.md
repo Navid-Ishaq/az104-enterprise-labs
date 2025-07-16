@@ -97,5 +97,6 @@ Always verify that the name resolution goes *private*. A public IP here means so
 > — Jamalu  
 > — **Siraat AI Academy**
 
+
 Use these tools not just to build — but to build wisely, with intention.
 
