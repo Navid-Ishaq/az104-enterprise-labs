@@ -3,6 +3,7 @@
 ---
 
 > _Security isn’t just about blocks and firewalls — it’s about flow, trust, and intention._
+
 > — Jamalu  
 > — **Siraat AI Academy**
 
